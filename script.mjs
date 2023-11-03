@@ -16,6 +16,6 @@ function checkGrade(event) {
         scoreInGrade = "F"
     }
 
-    message = `the Grade is ${scoreInGrade}`
+    message = `Your Grade is ${scoreInGrade}`
     document.querySelector("#result").innerHTML = message
 }
